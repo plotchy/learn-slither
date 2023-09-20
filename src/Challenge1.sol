@@ -7,12 +7,6 @@ pragma solidity ^0.8.0;
     Detect any methods that sell the coin and report it as a vulnerability.
     - specifically, find any external calls from Challenge1 to the `sell` method of the `hposi` contract
 
-    RULES:
-        - Your detector should only flag `bad` methods, not `good` ones.
-        - Your detector should not flag any methods in the `hposi` contract.
-        - No function name comparisons can be used for iterating over the Challenge contract
-             - ie: no filtering based on "good" or "bad" function names.
-
     INFO:
         try `slither . --print slithir`
             breaks down each node into slithir format
