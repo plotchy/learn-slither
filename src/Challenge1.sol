@@ -11,7 +11,7 @@ pragma solidity ^0.8.0;
         try `slither . --print slithir`
             breaks down each node into slithir format
         try `slither . --print slithir-ssa`
-            if a node undergoes several updates/changes, it will be suffixed with `x_1`, `x_2`, etc.
+            if a node undergoes several updates/changes, it will be suffixed with `*_1`, `*_2`, etc.
         try `slither . --print dominator`
             shows the dominator tree of each function
 */
