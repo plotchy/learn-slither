@@ -7,7 +7,7 @@ pragma solidity ^0.8.0;
 
     Your output should look like:
         INFO:Detectors:
-        HelloWorld.hello_world() (src/HelloWorld.sol#10-11) contains a hello_world function: HelloWorld (src/HelloWorld.sol#9-13)
+        HelloWorld.hello_world() (src/HelloWorld.sol#16-17) contains a hello_world function: HelloWorld (src/HelloWorld.sol#15-19)
         Reference: .
         INFO:Slither:. analyzed (5 contracts with 1 detectors), 1 result(s) found
 */
